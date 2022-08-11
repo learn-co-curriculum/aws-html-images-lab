@@ -24,6 +24,9 @@ Fork and clone this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
 Code.
 
+Install all the dependencies with `npm install` to ensure you can test your work as you go with `npm test`.
+
+
 ## Recognize the `img` Tag
 
 Images are inserted into HTML using the `img` tag. The tag can display a variety
@@ -72,7 +75,7 @@ also nice to provide some sort of message to a website visitor if the image
 fails to load, especially if the image is relevant to the rest of the content.
 Alt text on a failed image will appear along with a small 'broken image' icon:
 
-![Flatiron Logo](broken-image.png)
+![Amazon Logo](broken-image.png)
 
 To include an `alt` attribute, add it in along with the `src` attribute:
 
@@ -128,7 +131,7 @@ Your challenge is to write _three_ image tags:
 - The third should have both an alt and source attribute, as well as a _title_
   attribute
 
-Run `learn test` and read the tests as you go.
+Run `npm test` and read the tests as you go.
 
 ## Conclusion
 
